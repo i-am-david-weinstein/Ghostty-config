@@ -1,0 +1,19 @@
+# Ported from ~/.config/alacritty/alacritty.yml
+
+font-family = MesloLGL Nerd Font Mono
+font-size = 15
+
+background = #29293d
+
+window-padding-x = 0
+window-padding-y = 0
+
+# Closest match to Alacritty's "buttonless": hides the whole titlebar
+macos-titlebar-style = hidden
+
+# Make Option act as Alt (Alacritty doesn't do this by default on macOS).
+# Remove this line if you type special characters with Option.
+macos-option-as-alt = true
+
+# Copy Ghostty's terminfo to SSH hosts, or fall back to xterm-256color
+shell-integration-features = ssh-terminfo,ssh-env
